@@ -1,0 +1,28 @@
+body, html{
+	height:100%;
+	width:100%;
+	padding: 0;
+	margin:0;
+}
+div.top{
+	color: white;
+	height:100px;
+	width: 100%;
+	background-image: url('../img/watch.jpg');
+	background-position: 70% 50%;
+	background-size: 100% 500px;
+	display: flex;
+	justify-content: center;
+}
+div.top h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-right: 50px;
+	padding-left: 50px;
+	background-color: rgba(0,0,0,0.7);
+	display: flex;
+	align-items: center;
+}
+div.col-xs-4{
+	text-align: center;
+}

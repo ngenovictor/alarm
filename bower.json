@@ -1,0 +1,29 @@
+{
+  "name": "alarm",
+  "description": "Alarm clock. Shows current time. Allows users to set alarm. Alarm rings at the set time",
+  "main": "index.js",
+  "authors": [
+    "Victor"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "alarm",
+    "time",
+    "moment.js",
+    "node",
+    "npm"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1"
+  }
+}

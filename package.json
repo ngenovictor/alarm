@@ -1,0 +1,40 @@
+{
+  "name": "alarm",
+  "version": "1.0.0",
+  "description": "Alarm clock. Shows current time. Allows users to set alarm. Alarm rings at the set time",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngenovictor/alarm.git"
+  },
+  "keywords": [
+    "alarm",
+    "time",
+    "moment.js",
+    "node",
+    "npm"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngenovictor/alarm/issues"
+  },
+  "homepage": "https://github.com/ngenovictor/alarm#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "bower-files": "^4.0.0",
+    "browser-sync": "^2.18.12",
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

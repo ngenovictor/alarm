@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Alarm</title>
+	<link rel="stylesheet" type="text/css" href="build/css/vendor.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="top">
+	<h1>Rolex&#174;</h1>
+</div>
+<div class='row container-fluid'>
+	calendar will go here
+</div>
+<div class='row container-fluid'>
+	<div class='col-xs-4' id='hour'>
+		<h3>Hour</h3>
+		<p></p>
+	</div>
+	<div class='col-xs-4' id='minute'>
+		<h3>Minute</h3>
+		<p></p>
+	</div>
+	<div class='col-xs-4' id='second'>
+		<h3>Second</h3>
+		<p></p>
+	</div>
+</div>
+<div class='row container-fluid' id=alarm>
+	<form id=alarm>
+		<div class='form-group col-xs-4'>
+			<label for='hours'>Hour(24hr)</label>
+			<select class='form-control' id="hours">
+				<option>---------------</option>
+			</select>			
+		</div>
+		<div class='form-group col-xs-4'>
+			<label for='hours'>Minute</label>
+			<select class='form-control' id="minutes">
+				<option>---------------</option>
+			</select>			
+		</div>
+		<div class='form-group col-xs-4'>
+			<label>.</label>
+			<input type="submit" value="Set" class='btn btn-success form-control'>
+		</div>
+	</form>	
+</div>
+<div id="clear-alarm" class='btn btn-default'>
+	Clear Alarm	
+</div>
+
+
+	<script type="text/javascript" src="build/js/vendor.min.js"></script>
+	<script type="text/javascript" src="build/js/app.js"></script>
+</body>
+</html>
